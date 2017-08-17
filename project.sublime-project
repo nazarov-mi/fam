@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": "aaes"
+		},
+		{
+			"path": "models"
+		},
+		{
+			"path": "controllers"
+		},
+		{
+			"path": "views"
+		},
+		{
+			"path": "public"
+		}
+	]
+}

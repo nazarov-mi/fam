@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "bulma": "^0.4.2",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.8.8",
+    "jade": "^1.11.0",
+    "jquery": "^3.1.1",
+    "laravel-elixir": "^6.0.0-15",
+    "laravel-elixir-vue-2": "^0.3.0",
+    "laravel-elixir-webpack-official": "^1.0.10",
+    "moment": "^2.17.1",
+    "node-sass": "^4.5.0",
+    "resolve-url-loader": "^2.0.2",
+    "sass-font-awesome": "^1.0.0",
+    "sass-loader": "^6.0.2",
+    "selectize": "^0.12.4",
+    "vue": "^2.2.1",
+    "vue-resource": "^1.2.1",
+    "vue-router": "^2.3.0"
+  }
+}

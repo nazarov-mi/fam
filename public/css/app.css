@@ -1,0 +1,198 @@
+
+html {
+		-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	zoom: 1;
+}
+
+input {
+	-ms-touch-action: manipulation;
+		 touch-action: manipulation;
+}
+
+.modal-card-body hr {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+@media screen and (min-width: 769px) {
+	.modal-card {
+		width: 760px !important;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.modal-card {
+		max-height: 100vh !important;
+		margin: auto !important;
+	}
+
+	.modal-card-head,
+	.modal-card-foot {
+		border-radius: 0 !important;
+	}
+}
+
+
+/* Checkbox & Radio button */
+
+input.checkbox,
+input.radio {
+	position: relative;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 0 10px -4px 0;
+	padding: 0;
+	clear: none;
+	cursor: pointer;
+
+	background-color: #fff;
+	border: 1px solid #dbdbdb;
+	border-radius: 0;
+
+	outline: none;
+	line-height: 0;
+	vertical-align: middle;
+	text-decoration: none;
+
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+			appearance: none;
+
+	-webkit-transition: border-color 150ms ease-in;
+			transition: border-color 150ms ease-in;	
+}
+
+input.radio {
+	-webkit-border-radius: 50px;
+			border-radius: 50px;
+}
+
+input.checkbox:hover,
+input.radio:hover {
+	border-color: #b5b5b5;
+}
+
+input.checkbox:focus,
+input.radio:focus {
+	border-color: #12B886;
+}
+
+input.checkbox:checked:before {
+	content: ' ';
+	position: absolute;
+	width: 8px;
+	height: 16px;
+	top: 50%;
+	left: 50%;
+	margin: -10px 0 0 -4px;
+	transform: rotate(45deg);
+	border: 3px solid #12B886;
+	border-width: 0 3px 3px 0;
+}
+
+input.radio:checked:before {
+	content: ' ';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 50%;
+	left: 50%;
+	margin: -5px 0 0 -5px;
+	
+	background-color: #12B886;
+
+	-webkit-border-radius: 50px;
+			border-radius: 50px;
+}
+
+/* Overflow */
+
+.overflow {
+	position: relative;
+	overflow: hidden;
+	min-height: 3rem;
+}
+
+.overflow:before,
+.overflow:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+}
+
+.overflow:before {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	background-color: rgba(255, 255, 255, .75);
+	z-index: 100;
+}
+
+.overflow:after {
+	top: 50%;
+	left: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-top: -1.25rem;
+	margin-left: -1.25rem;
+
+	border: 3px solid transparent;
+	border-top-color: #dbdbdb;
+	border-left-color: #dbdbdb;
+	border-radius: 9999px;
+
+	-webkit-animation: spinAround 500ms infinite linear;
+    animation: spinAround 500ms infinite linear;
+    z-index: 101;
+}
+
+
+/* Admin */
+
+.header-img {
+	width: 100%;
+	padding: 2.5rem 1.5rem 3rem;
+	
+	background: url(../../public/img/header.jpg) no-repeat;
+	text-align: center;
+}
+
+.header-img > .title {
+	color: #fff;
+}
+
+@media screen and (max-width: 769px) {
+	.add-button {
+		width: 100%;
+	}
+
+	.header-img {
+		padding-top: 1rem;
+		padding-bottom: 1.15rem;
+	}
+
+	.header-img > .title {
+		font-size: 1.3rem !important;
+	}
+}
+
+
+/* Login */
+
+.login-form {
+	margin: 0 auto;
+	width: 250px;
+}
+
+@media screen and (max-width: 500px) {
+	.login-form {
+		width: 100%;
+	}
+}
